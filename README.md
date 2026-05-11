@@ -33,6 +33,7 @@ AETHER Archive is a sophisticated e-commerce platform for alternative-luxury jew
 ![Customer Support](images/img_5.png)
 
 <!-- Discord & Mail Integration -->
+Discord and Mail
 ![Discord Mail Integration](images/img_6.png)
 
 </div>
@@ -332,7 +333,7 @@ DELETE /api/admin/coupons/:id  # Delete coupon (admin)
 
 ## 🌟 Live Experience
 
-**🔗 [Experience AETHER Archive Live](https://aetherrs.link)**
+**🔗 [Experience AETHER Archive Live]([https://aetherrs.link](https://aether.com.bd))**
 
 > **Important Notice:** This repository is provided for documentation and educational purposes only. The source code is proprietary and cannot be shared, modified, or redistributed. For the complete AETHER experience, please visit our live platform.
 
