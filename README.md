@@ -281,7 +281,9 @@ PORT=5000
 
 ## 🌟 Live Experience
 
-**🔗 [Experience AETHER Archive Live]([aether.com.bd](https://aether.com.bd/)**
+## 🌟 Live Demo
+
+🔗 Experience AETHER Archive Live: https://aether.com.bd/
 
 > **⚠️ Important Notice:** 
 
