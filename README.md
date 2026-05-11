@@ -281,7 +281,7 @@ PORT=5000
 
 ## 🌟 Live Experience
 
-**🔗 [Experience AETHER Archive Live]([https://aetherrs.link](https://aether.com.bd))**
+**🔗 [Experience AETHER Archive Live]([aether.com.bd](https://aether.com.bd/)**
 
 > **⚠️ Important Notice:** 
 
