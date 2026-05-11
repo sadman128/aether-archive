@@ -168,7 +168,7 @@ npm run setup                    # Install all dependencies
 ```bash
 # Create database and import schema
 mysql -u root -p -e "CREATE DATABASE aether_db;"
-mysql -u root -p aether_db < database/schema.sql
+mysql -u root -p dbname < database/schema.sql
 ```
 
 ### Environment Configuration
@@ -181,34 +181,6 @@ cp .env.example .env
 ```
 
 #### 📝 Environment Variables Template (.env.example)
-
-```env
-# MySQL Database Configuration (for cPanel hosting)
-DB_HOST=localhost
-DB_USER=your_database_username
-DB_PASSWORD=your_database_password
-DB_NAME=aether_db
-DB_PORT=3306
-
-# Admin Credentials (CHANGE THESE FOR PRODUCTION!)
-ADMIN_USERNAME=your_admin_username
-ADMIN_PASSWORD=your_admin_password
-
-# Server Configuration
-#PORT=5000
-NODE_ENV=production
-
-# Discord Webhook (optional)
-DISCORD_WEBHOOK_URL=your_discord_webhook_url
-
-# Email Configuration (for order confirmations)
-SMTP_HOST=your_smtp_host
-SMTP_PORT=587
-SMTP_SECURE=false
-SMTP_USER=your_email_address
-SMTP_PASS=your_email_password
-SMTP_FROM=your_from_email_address
-```
 
 **⚠️ Important Security Notes:**
 - Always change default admin credentials in production
@@ -234,7 +206,7 @@ npm start
 
 The admin panel provides comprehensive management capabilities:
 
-**Login:** `/admin` route  
+**Login:** Uses username and password
 **Credentials:** Configure in `.env` file
 
 **Features:**
@@ -306,36 +278,18 @@ PORT=5000
 - **Visual Analytics** - Charts and progress indicators
 - **Export Capabilities** - Data export functionality
 
-## 🔧 API Documentation
-
-### Product Endpoints
-```
-GET    /api/products           # Fetch all products
-POST   /api/admin/products     # Create product (admin)
-PUT    /api/admin/products/:id # Update product (admin)
-DELETE /api/admin/products/:id # Delete product (admin)
-```
-
-### Order Management
-```
-GET    /api/admin/orders       # Fetch orders (admin)
-POST   /api/createOrder        # Create new order
-PATCH  /api/admin/orders/:id/status # Update order status
-```
-
-### Coupon System
-```
-GET    /api/admin/coupons      # Fetch coupons (admin)
-POST   /api/admin/coupons      # Create coupon (admin)
-PUT    /api/admin/coupons/:id  # Update coupon (admin)
-DELETE /api/admin/coupons/:id  # Delete coupon (admin)
-```
 
 ## 🌟 Live Experience
 
 **🔗 [Experience AETHER Archive Live]([https://aetherrs.link](https://aether.com.bd))**
 
-> **Important Notice:** This repository is provided for documentation and educational purposes only. The source code is proprietary and cannot be shared, modified, or redistributed. For the complete AETHER experience, please visit our live platform.
+> **⚠️ Important Notice:** 
+
+This repository is a portfolio and documentation showcase for the AETHER Archive platform.
+
+Due to ownership, security, and commercial restrictions, the production source code is private and is not included in this repository.
+
+This repository contains project documentation, architecture overview, feature breakdowns, and selected visual assets only.
 
 ---
 
