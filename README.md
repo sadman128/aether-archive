@@ -117,37 +117,6 @@ Order Items (id, order_id, product_id, quantity, unit_price)
 Coupons (coupon_id, coupon_code, description, percent, minimum_value, maximum_value, quantity)
 ```
 
-## 📁 Project Structure
-
-```
-aether-archive/
-├── 📂 src/                     # React frontend source
-│   ├── 📂 components/          # UI components
-│   │   ├── AboutPage.tsx      # Brand story page
-│   │   ├── AdminPanel.tsx     # Admin command center
-│   │   ├── CheckoutView.tsx   # Shopping cart & checkout
-│   │   └── ErrorBoundary.tsx  # Error handling
-│   ├── 📂 hooks/              # Custom React hooks
-│   ├── 📂 services/           # API service layer
-│   ├── App.tsx               # Main application component
-│   └── ShopContext.tsx       # Global state management
-├── 📂 server/                  # Express backend
-│   ├── 📂 config/             # Database configuration
-│   ├── 📂 middleware/         # Custom middleware
-│   ├── 📂 routes/             # API route handlers
-│   ├── 📂 services/           # Business logic services
-│   ├── 📂 product_picture/    # Product image storage
-│   └── index.js              # Main server entry point
-├── 📂 database/                # Database schema & migrations
-│   └── schema.sql             # Complete database structure
-├── 📂 public/                  # Static assets
-│   └── Flow_202604171737.mp4  # Background video
-├── 📂 dist/                    # Production build output
-├── package.json               # Root dependencies & scripts
-├── vite.config.ts             # Vite configuration
-├── tsconfig.json              # TypeScript configuration
-└── .env.example               # Environment variables template
-```
 
 ## 🚀 Quick Start
 
